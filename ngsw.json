@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1696671222145,
+  "timestamp": 1696759430014,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -166,7 +166,7 @@
     "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/assets/login.json": "d1fcb6cf48086ccbd6aac30d37ea30e9fb7341d8",
-    "/assets/videolist.json": "685ef3f87cdd8bd7936b12a8e26af0157932af34",
+    "/assets/videolist.json": "ac401380128f816c39fc134527a5e63ec52a6b77",
     "/common.55e4e0f52ee3b859.js": "9954218f982a2fab90746e3fe560135191e91f62",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/fcknaagdierlogo.114fe2636f0a80bf.jpg": "1c952d78e6a9bd3dbbe6811593b2c558a122e581",
