@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1696759835290,
+  "timestamp": 1696946190593,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -64,7 +64,7 @@
         "/common.55e4e0f52ee3b859.js",
         "/favicon.ico",
         "/index.html",
-        "/main.edd8488acbe42312.js",
+        "/main.08089bbb5ef97975.js",
         "/manifest.webmanifest",
         "/polyfills-core-js.4a2bc4efb33bdc51.js",
         "/polyfills-dom.742c33877f46100e.js",
@@ -166,12 +166,12 @@
     "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/assets/login.json": "d1fcb6cf48086ccbd6aac30d37ea30e9fb7341d8",
-    "/assets/videolist.json": "1124b94ed2de5aeb6055a5404e56036834613e43",
+    "/assets/videolist.json": "8191503295c8ad7ca05a57d29bec0c0fb7295541",
     "/common.55e4e0f52ee3b859.js": "9954218f982a2fab90746e3fe560135191e91f62",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/fcknaagdierlogo.114fe2636f0a80bf.jpg": "1c952d78e6a9bd3dbbe6811593b2c558a122e581",
-    "/index.html": "7f44258a5c5e3d6d88fe618182e6ebf8f3119105",
-    "/main.edd8488acbe42312.js": "51474ffc2c7a18655707a44cf1a34f7f4faeacbc",
+    "/index.html": "03df6ab2ac1e864b34f975517b6958e1a011b199",
+    "/main.08089bbb5ef97975.js": "f6b6409797a9f91afc805a54990bafaa3552f157",
     "/manifest.webmanifest": "0234fbfab4301560edab835ab8ba17283311264f",
     "/polyfills-core-js.4a2bc4efb33bdc51.js": "77cb3bbf96c1e4f21ea9e6d56ef1024320c271e8",
     "/polyfills-dom.742c33877f46100e.js": "8cbd5548c1252259c35de695a8f8fc3ed67cf367",
