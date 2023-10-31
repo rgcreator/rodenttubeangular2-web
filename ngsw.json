@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698767034133,
+  "timestamp": 1698769128437,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -228,7 +228,7 @@
     "/common.55e4e0f52ee3b859.js": "9954218f982a2fab90746e3fe560135191e91f62",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/fcknaagdierlogo.114fe2636f0a80bf.jpg": "1c952d78e6a9bd3dbbe6811593b2c558a122e581",
-    "/index.html": "b02c02bd643cc0b999ac2d031c9639a284e576bd",
+    "/index.html": "1d0c63ac961d6baac255e09b02886f98e0ecbfea",
     "/main.5c7113b057cf3339.js": "c8473d255699a29970f32acb07e1e8a54404a56c",
     "/manifest.webmanifest": "0234fbfab4301560edab835ab8ba17283311264f",
     "/polyfills-core-js.4a2bc4efb33bdc51.js": "77cb3bbf96c1e4f21ea9e6d56ef1024320c271e8",
