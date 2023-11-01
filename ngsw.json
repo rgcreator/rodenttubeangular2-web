@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698823568507,
+  "timestamp": 1698824334221,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -64,7 +64,7 @@
         "/common.55e4e0f52ee3b859.js",
         "/favicon.ico",
         "/index.html",
-        "/main.b3ea324b0d181a3d.js",
+        "/main.b0a36973f515e22a.js",
         "/manifest.webmanifest",
         "/polyfills-core-js.4a2bc4efb33bdc51.js",
         "/polyfills-dom.742c33877f46100e.js",
@@ -228,8 +228,8 @@
     "/common.55e4e0f52ee3b859.js": "9954218f982a2fab90746e3fe560135191e91f62",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/fcknaagdierlogo.114fe2636f0a80bf.jpg": "1c952d78e6a9bd3dbbe6811593b2c558a122e581",
-    "/index.html": "b6a0ac88634e427d517ce74a2f0c9ede78a3fedd",
-    "/main.b3ea324b0d181a3d.js": "7635dc92517646834929651f1ce94725486821d8",
+    "/index.html": "b2c2106c66f664c41a453f48a4ede313f8ea57d9",
+    "/main.b0a36973f515e22a.js": "0e904e782f38cdfc4f892b908ad0eb34da241ff5",
     "/manifest.webmanifest": "0234fbfab4301560edab835ab8ba17283311264f",
     "/polyfills-core-js.4a2bc4efb33bdc51.js": "77cb3bbf96c1e4f21ea9e6d56ef1024320c271e8",
     "/polyfills-dom.742c33877f46100e.js": "8cbd5548c1252259c35de695a8f8fc3ed67cf367",
