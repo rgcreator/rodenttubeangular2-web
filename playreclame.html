@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodenttube</title>
+  <link rel="stylesheet" href="code/bootstrap.min.css">
+  <meta referer="no-referrer">
+  <script src="code/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+<img src="images/rodenttube banner bs.png">
+
+  <div id="song-box">
+    <br>
+    <div class="d-flex justify-content-center">
+      <video class="video col-10 col-lg-4" id="audioenvideo" autoplay>
+        <source src=""></source>
+        Your browser does not support the video format.
+      </video>
+    </div>
+    <div class="links">
+      <button id="play" onclick="playAds()">Play</button>
+      <button onclick="nextAd()">Volgende Advertentie</button>
+      <button onclick="prevAd()">Vorige Advertentie</button>
+      <button onclick="pause()">Pause</button>
+      <button id="video" onclick="playAudio()">Verander naar audio</button>
+      <button onclick="playVideo ()">Verander naar video</button>
+
+    </div>
+  </div> 
+  <script>
+  
+  let adList = ["https://ik.imagekit.io/fcknaagdier/Reclame/Knaagvrij.mp3?updatedAt=1703966169971"]
+  
+  let audioElement = document.getElementById("audioenvideo");
+  let currentIndex = 0;
+  
+
+
+  function playAds() {
+    audioElement.src = adList[currentIndex];
+    audioElement.play();
+  }
+  
+  function nextAd() {
+    currentIndex = (currentIndex + 1) % adList.length;
+    playAds();
+  }
+  
+  function prevVideo() {
+    currentIndex = (currentIndex - 1 + adList.length) % adList.length;
+   playAds();
+  }
+
+  function playAudio (){ 
+    window.location.href = ("index.html");
+  }
+  function playVideo (){ 
+    window.location.href = ("playvideo.html");
+  }
+  function pause(){
+    audioElement.pause();
+  }
+</script>
+</body>
+</html>
+

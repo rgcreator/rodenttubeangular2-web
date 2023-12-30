@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodenttube</title>
+  <link rel="stylesheet" href="code/bootstrap.min.css">
+  <meta referer="no-referrer">
+  <script src="code/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+<img src="images/rodenttube banner bs.png">
+
+  <div id="song-box">
+    <br>
+    <div class="d-flex justify-content-center">
+      <video class="video col-10 col-lg-4" id="audioenvideo" autoplay>
+        <source src=""></source>
+        Your browser does not support the video format.
+      </video>
+    </div>
+    <div class="links">
+      <button id="play" onclick="playVideo ()">Play</button>
+      <button id="volgendevideo" onclick="nextVideo ()">Volgende video</button>
+      <button id="vorigevideo" onclick="previousVideo ()">Vorige Video</button>
+      <button onclick="pause ()">Pause</button>
+      <button id="video" onclick="playAudio ()">Verander naar audio</button>
+      <button onclick="playReclame ()">Knaagdier reclames</button>
+    </div>
+  </div> 
+  <script>
+  
+  let videoList = [
+  "https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/Labelwilsamenwerken%20(2).mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/GavanYTaf.mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/WatkanjelerenvaneenInstagramvideovandaughtersdiary%20(1).mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/RodenttubestaatindePlayStore%20(1).mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/RadiovijfdrieachtvoorprinsesMaximafoundation.mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/StichtingdeknoevelinMaastricht.mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/JakeDankwoordheeftgezegddathijhomois.mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/HamsterAdajawordtgepest.mp4",
+"https://ik.imagekit.io/fcknaagdier/Rodenttube%20videos/Aankondigingnieuwewebsiterudenttube.nl.mp4"
+  ];
+  
+  let audioElement = document.getElementById("audioenvideo");
+  let currentIndex = 0;
+  
+
+
+  function playVideo () {
+    audioElement.src = videoList[currentIndex];
+    audioElement.play();
+  }
+  
+  function nextVideo () {
+    currentIndex = (currentIndex + 1) % videoList.length;
+    playVideo();
+  }
+  
+  function previousVideo () {
+    currentIndex = (currentIndex - 1 + videoList.length) % videoList.length;
+    playVideo();
+  }
+
+  function playReclame (){ 
+    window.location.href = ("playreclame.html");
+  }
+  function play (){ 
+    window.location.href = ("index.html");
+  }
+  function pause (){
+    audioElement.pause();
+  }
+</script>
+</body>
+</html>
+
