@@ -26,6 +26,8 @@
     </div>
   </div> 
   <script>
+      let audioElement = document.getElementById("audioenvideo");
+    let currentIndex = 0;
   let audioList = [
  "https://ik.imagekit.io/fcknaagdier/Rodenttube%20muziek/Ik%20wens%20je%20veel%20beukennoten.mp3",
     "https://ik.imagekit.io/fcknaagdier/Rodenttube%20muziek/Echte%20Fans.mp3",
@@ -61,30 +63,37 @@
     "https://ik.imagekit.io/fcknaagdier/Rodenttube%20muziek/Kerstbever.mp3?updatedAt=1695195493830"
   ];
   
-  
-  let audioElement = document.getElementById("audioenvideo");
-  let currentIndex = 0;
-  
-  function playAudio() {
-    audioElement.src = audioList[currentIndex];
-    audioElement.play();
-  }
-  
-  function nextAudio() {
-    let currentIndex = Math.floor(Math.random() * audioList.length);
-    audioElement.src = audioList[currentIndex];
-    audioElement.play();
-  }
-  
-  function playVideo (){ 
-    window.location.href = ("playvideo.html");
-  }
-  function Reclame (){
-    window.location.href = ("playreclame.html");
-  }
-  function pause(){
-    audioElement.pause();
-  }
+    function playAudio() {
+      audioElement.src = audioList[currentIndex];
+      audioElement.play();
+    }
+
+    function nextAudio() {
+      if (audioList.length > 0) {
+        audioList.splice(currentIndex, 1); // Remove the current song
+        if (audioList.length > 0) {
+          currentIndex = Math.floor(Math.random() * audioList.length);
+          audioElement.src = audioList[currentIndex];
+          audioElement.play();
+        } else {
+          alert("No more songs left!");
+        }
+      } else {
+        alert("Geen knaagdiernummers meer over. Maar geen paniek. Speel ze opnieuw in een andere volgorde.");
+      }
+    }
+
+    function playVideo() {
+      window.location.href = "playvideo.html";
+    }
+
+    function Reclame() {
+      window.location.href = "playreclame.html";
+    }
+
+    function pause() {
+      audioElement.pause();
+    }
 </script>
 </body>
 </html>
