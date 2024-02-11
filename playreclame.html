@@ -26,7 +26,7 @@
       <button onclick="prevAd()">Vorige Advertentie</button>
       <button onclick="pause()">Pause</button>
       <button id="video" onclick="playAudio()">Verander naar audio</button>
-      <button onclick="playVideo ()">Verander naar video</button>
+      <button onclick="playVideo()">Verander naar video</button>
 
     </div>
   </div> 
@@ -41,7 +41,6 @@
   let currentIndex = 0;
   
 
-
   function playAds() {
     audioElement.src = adList[currentIndex];
     audioElement.play();
@@ -52,9 +51,9 @@
     playAds();
   }
   
-  function prevVideo() {
+  function prevAd() {
     currentIndex = (currentIndex - 1 + adList.length) % adList.length;
-   playAds();
+    playAds();
   }
 
   function playAudio (){ 
@@ -69,4 +68,3 @@
 </script>
 </body>
 </html>
-
