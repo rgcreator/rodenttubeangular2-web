@@ -7,14 +7,6 @@
   <link rel="stylesheet" href="layout.css">
 </head>
 <body>
-  <div id="song-box">
-    <div class="navbar">
-      <button id="play" style="font-size: xx-large; font-weight: bolder;" onclick="playAudio()">Play</button>
-      <button id="next" style="font-size: xx-large; font-weight: bolder;" onclick="nextAudio()">Next</button>
-      <button style="font-size: xx-large; font-weight: bolder;" onclick="pause()">Pause</button>
-      <button style="font-size: xx-large; font-weight: bolder;" onclick="playVideo ()">Video</button>
-      <button style="font-size: xx-large; font-weight: bolder;" onclick="Reclame ()">Reclames</button>
-    </div>
     <h1 style="color: #654321; -webkit-text-stroke: 3.5px darkgreen; text-align: center; font-size: 50px; /* width and color */">Rodenttube</h1>
     <br>
     <div class="d-flex justify-content-center">
@@ -24,6 +16,14 @@
       </video>
     </div>
   </div> 
+  <div id="song-box">
+    <div class="navbar">
+      <button id="play" style="font-size: xx-large; font-weight: bolder;" onclick="playAudio()">Play</button>
+      <button id="next" style="font-size: xx-large; font-weight: bolder;" onclick="nextAudio()">Next</button>
+      <button style="font-size: xx-large; font-weight: bolder;" onclick="pause()">Pause</button>
+      <button style="font-size: xx-large; font-weight: bolder;" onclick="playVideo ()">Video</button>
+      <button style="font-size: xx-large; font-weight: bolder;" onclick="Reclame ()">Reclames</button>
+    </div>
   <script>
       let audioElement = document.getElementById("audioenvideo");
     let currentIndex = 0;
