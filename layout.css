@@ -141,3 +141,18 @@ visibility: hidden;
             width: 500px;
         }
       }
+    
+.navbar {
+    display: flex;
+}
+
+.navbar button {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    
+}
